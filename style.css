@@ -1,1 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
 
+body{
+    background:white;
+    color:#333;
+}
+
+header{
+    background:skyblue;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    color:white;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.hero{
+    height:80vh;
+    background:linear-gradient(
+    rgba(135,206,235,0.7),
+    rgba(255,255,255,0.7)
+    );
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:skyblue;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:25px;
+}
+
+.about{
+    padding:50px;
+    text-align:center;
+}
+
+.about h2{
+    color:skyblue;
+    margin-bottom:20px;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.feature{
+    background:#f0fbff;
+    width:300px;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.page-title{
+    text-align:center;
+    padding:40px;
+}
+
+.page-title h2{
+    color:skyblue;
+}
+
+.products-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.product-card{
+    width:300px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.product-card h3{
+    padding:15px;
+    color:skyblue;
+}
+
+.product-card p{
+    padding:0 15px 20px;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.testimonial-card{
+    width:350px;
+    background:#f0fbff;
+    padding:20px;
+    text-align:center;
+    border-radius:15px;
+}
+
+.testimonial-card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+footer{
+    background:skyblue;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
